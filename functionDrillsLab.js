@@ -106,7 +106,7 @@ console.log('expression')
   Which syntax was used to create the function below?
   Uncomment the correct `console.log` underneath.
 */
-const exclaimThree = (str) => `${str.toUpperCase} !!!`
+const exclaimThree = (str) => `${str.toUpperCase}!!!`
 
 const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
@@ -154,13 +154,18 @@ console.log('declaration')
 */
 
 //CODE HERE
+
 function nameCheck(name) {
-  nameCheck === 'Steven'
-  console.log("What is up Steven?") {
-    
+  if (name === "Steven") {
+    return "What is up Steven?"
+  }  else if (name === "Bryan") {
+    return "Hey Bryan!"
+  } else {
+    return (`Cool name, ${name}`)
   }
 }
 
+let nameGreeting = nameCheck("Tanner")
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -183,7 +188,9 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function (printAllNames) {
+  for (let i = 0; i < printAllNames.length; i++)
+}
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
